@@ -1,4 +1,4 @@
-(defproject starcity/shutdown "0.1.0"
+(defproject starcity/shutdown "0.1.1-SNAPSHOT"
 
   :description "Manage a clojure application's shutdown hooks."
 
