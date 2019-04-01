@@ -9,6 +9,8 @@
 
   :dependencies [[org.clojure/clojure "1.8.0"]]
 
+  :plugins [[s3-wagon-private "1.2.0"]]
+
   :repositories [["releases" {:url        "s3://starjars/releases"
                               :username   :env/aws_access_key
                               :passphrase :env/aws_secret_key}]])
